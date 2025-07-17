@@ -236,9 +236,21 @@ grid-template-columns: repeat(4, 1fr);
 @media screen and (max-width:576px) {
    .navbar, 
    .nav-links,
-   .features
+  
     .teams    {
     flex-direction: column;
+   }
+   .feature-architect img {
+    width: 300px;
+    height: 300px;
+    
+ 
+   }
+    .features {
+          flex-direction: column;
+    }
+   .feature-architect {
+    margin-top: 10px;
    }
  .team-img-container, .fact-container, .sponsor-company {
     grid-template-columns: repeat(1,1fr);
